@@ -11,7 +11,7 @@ fun feedTheFish(){
 }
 
 fun randomDay(): String{
-    val week = listOf("Moday", "Tuesday", "Wednesday", "Thursday", "Saturday", "Sunday")
+    val week = listOf("Monday", "Tuesday", "Wednesday", "Thursday", "Saturday", "Sunday")
     return week[Random().nextInt(7)]
 }
 
